@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Advanced Colonist Intelligence</name>
+    <author>Sean</author>
+    <packageId>sean.advancedcolonistintelligence</packageId>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>Embodies colonists with advanced AI-driven intelligence for smarter decision-making, improved task prioritization, and more realistic behavior patterns.
+
+Features:
+- Intelligent task prioritization based on colony needs
+- Context-aware decision making
+- Dynamic skill-based work assignment
+- Improved social interactions
+- Emergent behavior patterns</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>ludeon.rimworld</li>
+        <li>brrainz.harmony</li>
+    </loadAfter>
+</ModMetaData>

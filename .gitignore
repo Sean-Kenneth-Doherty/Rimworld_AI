@@ -1,0 +1,23 @@
+# Build results
+Assemblies/*.dll
+Assemblies/*.pdb
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.csproj.user
+
+# Build
+obj/
+bin/
+Source/obj/
+Source/bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
