@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+    <!-- Mod Info -->
     <ACI_ModName>Advanced Colonist Intelligence</ACI_ModName>
-    <ACI_Description>Enhances colonist AI for smarter behavior.</ACI_Description>
+    <ACI_ModDescription>Embodies colonists with AI-driven intelligence for autonomous decision-making.</ACI_ModDescription>
+
+    <!-- Settings -->
+    <ACI_Settings_APIConfiguration>API Configuration</ACI_Settings_APIConfiguration>
+    <ACI_Settings_Provider>LLM Provider</ACI_Settings_Provider>
+    <ACI_Settings_APIKey>API Key</ACI_Settings_APIKey>
+    <ACI_Settings_Model>Model</ACI_Settings_Model>
+    <ACI_Settings_CustomEndpoint>Custom Endpoint (optional)</ACI_Settings_CustomEndpoint>
+    <ACI_Settings_TestConnection>Test Connection</ACI_Settings_TestConnection>
+
+    <ACI_Settings_ColonistSelection>AI Colonist Selection</ACI_Settings_ColonistSelection>
+    <ACI_Settings_MaxAIColonists>Max AI Colonists</ACI_Settings_MaxAIColonists>
+    <ACI_Settings_ActiveAIColonists>Active AI Colonists</ACI_Settings_ActiveAIColonists>
+    <ACI_Settings_LoadGameToSelect>Load a game to select AI colonists.</ACI_Settings_LoadGameToSelect>
+
+    <ACI_Settings_Autonomy>Autonomy</ACI_Settings_Autonomy>
+    <ACI_Settings_CanRefuseOrders>AI can refuse player orders</ACI_Settings_CanRefuseOrders>
+    <ACI_Settings_CanRefuseOrdersDesc>When enabled, AI colonists may refuse to do tasks that conflict with their personality.</ACI_Settings_CanRefuseOrdersDesc>
+    <ACI_Settings_CanInitiateActions>AI can initiate actions independently</ACI_Settings_CanInitiateActions>
+    <ACI_Settings_CanInitiateActionsDesc>AI colonists will proactively start tasks without being told.</ACI_Settings_CanInitiateActionsDesc>
+    <ACI_Settings_CanDraftSelf>AI can draft/undraft self</ACI_Settings_CanDraftSelf>
+    <ACI_Settings_CanDraftSelfDesc>AI colonists can enter combat mode on their own.</ACI_Settings_CanDraftSelfDesc>
+    <ACI_Settings_CanLeaveMap>AI can leave the map</ACI_Settings_CanLeaveMap>
+    <ACI_Settings_CanLeaveMapDesc>AI colonists can join caravans or flee the map.</ACI_Settings_CanLeaveMapDesc>
+
+    <ACI_Settings_Display>Display</ACI_Settings_Display>
+    <ACI_Settings_ShowThoughtBubbles>Show thought bubbles</ACI_Settings_ShowThoughtBubbles>
+    <ACI_Settings_ShowThoughtBubblesDesc>Display speech bubbles showing AI colonist thoughts.</ACI_Settings_ShowThoughtBubblesDesc>
+    <ACI_Settings_LogToJournal>Log thoughts to journal</ACI_Settings_LogToJournal>
+    <ACI_Settings_LogToJournalDesc>Record all AI decisions in a viewable journal.</ACI_Settings_LogToJournalDesc>
+    <ACI_Settings_NotifyMajorDecisions>Notify on major decisions</ACI_Settings_NotifyMajorDecisions>
+    <ACI_Settings_NotifyMajorDecisionsDesc>Show notifications for significant AI actions.</ACI_Settings_NotifyMajorDecisionsDesc>
+
+    <ACI_Settings_QueryTiming>Query Timing</ACI_Settings_QueryTiming>
+    <ACI_Settings_QueryMode>Query Mode</ACI_Settings_QueryMode>
+    <ACI_Settings_MinQueryDelay>Min delay between queries (seconds)</ACI_Settings_MinQueryDelay>
+    <ACI_Settings_MaxTokens>Max tokens per query</ACI_Settings_MaxTokens>
+
+    <ACI_Settings_Debug>Debug</ACI_Settings_Debug>
+    <ACI_Settings_DebugMode>Debug mode</ACI_Settings_DebugMode>
+    <ACI_Settings_LogPrompts>Log prompts to console</ACI_Settings_LogPrompts>
+    <ACI_Settings_LogResponses>Log responses to console</ACI_Settings_LogResponses>
+
+    <!-- Messages -->
+    <ACI_Message_ConnectionSuccess>API connection successful!</ACI_Message_ConnectionSuccess>
+    <ACI_Message_ConnectionFailed>API connection failed: {0}</ACI_Message_ConnectionFailed>
+    <ACI_Message_RefusedOrder>{0} refused your order.</ACI_Message_RefusedOrder>
+
+    <!-- Journal -->
+    <ACI_Journal_Title>{0}'s Mind</ACI_Journal_Title>
+    <ACI_Journal_Refresh>Refresh</ACI_Journal_Refresh>
+    <ACI_Journal_TotalEntries>Total entries: {0}</ACI_Journal_TotalEntries>
+    <ACI_Journal_Button>AI Journal</ACI_Journal_Button>
 </LanguageData>

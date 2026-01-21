@@ -4,16 +4,40 @@
     <author>Sean</author>
     <packageId>sean.advancedcolonistintelligence</packageId>
     <supportedVersions>
+        <li>1.4</li>
         <li>1.5</li>
     </supportedVersions>
-    <description>Embodies colonists with advanced AI-driven intelligence for smarter decision-making, improved task prioritization, and more realistic behavior patterns.
+    <description>Transform your colonists into autonomous AI-driven characters with real intelligence.
 
-Features:
-- Intelligent task prioritization based on colony needs
-- Context-aware decision making
-- Dynamic skill-based work assignment
-- Improved social interactions
-- Emergent behavior patterns</description>
+[h1]Features[/h1]
+[list]
+[*] [b]LLM Integration[/b] - Connect to Grok, OpenAI, Claude, Ollama, or LM Studio
+[*] [b]Full Character Context[/b] - AI receives complete backstory, traits, skills, relationships, mood, and memories
+[*] [b]Autonomous Decision Making[/b] - Selected colonists make their own choices based on personality
+[*] [b]Thought Bubbles[/b] - See what your AI colonists are thinking
+[*] [b]Journal System[/b] - Review a log of all AI decisions and reasoning
+[*] [b]Configurable Autonomy[/b] - Control whether AI can refuse orders, draft themselves, etc.
+[*] [b]Event-Driven[/b] - AI reacts to job completion, threats, injuries, social interactions, and more
+[/list]
+
+[h1]How It Works[/h1]
+1. Configure your LLM provider and API key in Mod Settings
+2. Select which colonists should have AI brains
+3. Watch them live their lives with genuine agency
+
+[h1]Supported Providers[/h1]
+[list]
+[*] [b]Grok[/b] (x.ai) - Recommended
+[*] [b]OpenAI[/b] (GPT-4, GPT-4o-mini)
+[*] [b]Claude[/b] (Anthropic)
+[*] [b]Ollama[/b] (Local, free)
+[*] [b]LM Studio[/b] (Local, free)
+[/list]
+
+[h1]Note[/h1]
+This mod requires an API key for cloud providers (Grok, OpenAI, Claude) or a local LLM server (Ollama, LM Studio) to function.
+
+API calls have costs - monitor your usage!</description>
     <modDependencies>
         <li>
             <packageId>brrainz.harmony</packageId>
